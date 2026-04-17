@@ -1,0 +1,139 @@
+{
+  "accuracy": 0.999915,
+  "precision": 0.9921307506053268,
+  "recall": 0.9975654290931223,
+  "f1": 0.9948406676783005,
+  "auc_roc": 0.9987675473429929,
+  "confusion_matrix": {
+    "tn": 198344,
+    "fp": 13,
+    "fn": 4,
+    "tp": 1639
+  },
+  "roc_curve": [
+    {
+      "fpr": 0.0,
+      "tpr": 0.0
+    },
+    {
+      "fpr": 3.0248491356493595e-05,
+      "tpr": 0.9975654290931223
+    },
+    {
+      "fpr": 3.528990658257586e-05,
+      "tpr": 0.9975654290931223
+    },
+    {
+      "fpr": 6.553839793906945e-05,
+      "tpr": 0.9975654290931223
+    },
+    {
+      "fpr": 1.0,
+      "tpr": 1.0
+    }
+  ],
+  "pr_curve": [
+    {
+      "precision": 0.008215,
+      "recall": 1.0
+    },
+    {
+      "precision": 0.9921307506053268,
+      "recall": 0.9975654290931223
+    },
+    {
+      "precision": 0.9939357186173439,
+      "recall": 0.9975654290931223
+    },
+    {
+      "precision": 0.9957472660996355,
+      "recall": 0.9975654290931223
+    },
+    {
+      "precision": 0.9963525835866262,
+      "recall": 0.9975654290931223
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.0
+    }
+  ],
+  "feature_importances": [
+    {
+      "feature": "amountEqualsBalance",
+      "importance": 0.955109802607527
+    },
+    {
+      "feature": "destChangeDiff",
+      "importance": 0.03667810550311763
+    },
+    {
+      "feature": "amountRatioDest",
+      "importance": 0.0034988084810880786
+    },
+    {
+      "feature": "origBalanceChange",
+      "importance": 0.000863093243062981
+    },
+    {
+      "feature": "destBalanceChange",
+      "importance": 0.0008261778983772971
+    },
+    {
+      "feature": "origChangeDiff",
+      "importance": 0.0006555666274245715
+    },
+    {
+      "feature": "amountRatioOrig",
+      "importance": 0.0004247896691873891
+    },
+    {
+      "feature": "errorBalanceOrig",
+      "importance": 0.0003884979297792901
+    },
+    {
+      "feature": "amount",
+      "importance": 0.00036166448093532334
+    },
+    {
+      "feature": "newbalanceDest",
+      "importance": 0.0003298599456953711
+    },
+    {
+      "feature": "oldbalanceDest",
+      "importance": 0.00031654768445644755
+    },
+    {
+      "feature": "oldbalanceOrg",
+      "importance": 0.00029921398206781183
+    },
+    {
+      "feature": "type_encoded",
+      "importance": 0.00012755792089719038
+    },
+    {
+      "feature": "errorBalanceDest",
+      "importance": 0.00010940578982868119
+    },
+    {
+      "feature": "isHighRiskType",
+      "importance": 1.0908236554845112e-05
+    },
+    {
+      "feature": "newbalanceOrig",
+      "importance": 0.0
+    },
+    {
+      "feature": "isFullDrain",
+      "importance": 0.0
+    },
+    {
+      "feature": "moneyVanished",
+      "importance": 0.0
+    }
+  ],
+  "training_time": 9.34,
+  "imbalance_strategy": "class_weight='balanced'",
+  "sample_size": 1000000,
+  "feature_count": 18
+}

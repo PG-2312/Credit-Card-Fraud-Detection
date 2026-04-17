@@ -1,0 +1,33 @@
+# Environment & Virtual Env
+.env
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# IDEs & System Data
+.vscode/
+.idea/
+.DS_Store
+*.code-workspace
+
+# Large Datasets
+*.csv
+PS_20174392719_1491204439457_log.csv
+synthetic_test_dataset.csv
+
+# SQLite Database
+*.db
+backend/transactions.db
+backend/fraudguard.db
+
+# Frontend (Node/React/Vite)
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.npm
+frontend/coverage/
+
+# Misc
+*.log

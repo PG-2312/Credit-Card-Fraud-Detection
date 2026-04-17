@@ -1,0 +1,1 @@
+["amount", "oldbalanceOrg", "newbalanceOrig", "oldbalanceDest", "newbalanceDest", "type_encoded", "errorBalanceOrig", "errorBalanceDest", "amountRatioOrig", "amountRatioDest", "isFullDrain", "isHighRiskType", "moneyVanished", "amountEqualsBalance", "origBalanceChange", "destBalanceChange", "origChangeDiff", "destChangeDiff"]
